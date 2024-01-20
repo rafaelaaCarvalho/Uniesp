@@ -1,0 +1,52 @@
+09/12/2023
+métodos = comportamento das  minhas aplicações
+ORM - Object Relational Mapping (Mapeamento Objeto-Racional)
+
+REST = UMA API
+RESTful = MINHA API COMPLETA
+
+REQUEST X RESPONSE 
+=============================
+VERBOS HTTTP
+
+GET    = obter (solicitação)
+POST   = publicar (criação de um recurso)
+PUT    = up date (atualizar/editar o recurso já criado)
+PATCH  = atualiza apenas o que precisa ser alterado
+DELETE = remove a criação anteriormente criado
+
+
+*CRUD
+CREATE
+READ
+UPDATE
+DELETE
+=========================================
+
+
+Site para construit API
+
+https://start.spring.io/
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Configurando o PostGres
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/aluno_online_tercas
+spring.datasource.username=postgres
+spring.datasource.password=password
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.jpa.show-sql=true
+spring.datasource.testWhileIdle=true spring.datasource.validationQuery=SELECT 1
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.hibernate.naming.implicit-strategy=org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyHbmImpl
+spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+
+-----------
+
+Pom.XML 
+
+Copiar as linhas da 20 a 23
